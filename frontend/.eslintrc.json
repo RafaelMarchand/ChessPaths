@@ -1,0 +1,78 @@
+{
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "semi": [
+            "error",
+            "never"
+        ],
+        "max-len": [
+            "warn",
+            {
+                "code": 120
+            }
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-use-before-define": [
+            "warn"
+        ],
+        "react/no-unstable-nested-components": [
+            "warn"
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "no-param-reassign": [
+            "warn"
+        ],
+        "react/destructuring-assignment": [
+            "warn"
+        ],
+        "react/react-in-jsx-scope": "off",
+        "implicit-arrow-linebreak": [
+            "warn"
+        ],
+        "react/require-default-props": [
+            "warn"
+        ],
+        "no-unused-vars": [
+            "off"
+        ],
+        "@typescript-eslint/no-unused-vars": "warn",
+        "no-console": [
+            "warn"
+        ],
+        "no-var": [
+            "error"
+        ],
+        "react/function-component-definition": [
+            "error",
+            {
+                "namedComponents": "function-declaration",
+                "unnamedComponents": "function-expression"
+            }
+        ],
+        "radix": "error",
+        "default-case": "error",
+        "eqeqeq": "error",
+        //"import/prefer-default-export": "warn",
+        "react/no-unused-prop-types": "warn",
+        "@typescript-eslint/no-shadow": "error",
+        "react/no-array-index-key": "warn",
+        "guard-for-in": "warn",
+        "no-lone-blocks": "error",
+        "prefer-template": "error",
+        //"import/newline-after-import": "warn",
+        "dot-notation": "error",
+        "no-undef": "error",
+        "arrow-body-style": "warn"
+    }
+}

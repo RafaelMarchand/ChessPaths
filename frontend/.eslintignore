@@ -1,0 +1,6 @@
+*vite-env.d.ts
+node_modules/
+src/main.tsx
+src/Engine/stockfish.js
+src/Engine/stockfish.wasm
+.vscode
